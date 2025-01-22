@@ -73,7 +73,7 @@ if True:
 # Create the tool
 tool = VectorStoreTool(
     vector_store_driver=vector_store_driver,
-    description="This DB has information about the judgement and the strikeout application",
+    description="This DB has information about the <<insert the topics of the documents>>",  # update with your topics
 )
 
 # Create the agent
