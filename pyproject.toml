@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 python-dotenv = "^1.0.1"
-griptape = {extras = ["all"], version = "^1.2.0"}
+griptape = {extras = ["all"], version = "^1.4.0"}
 
 
 [build-system]
