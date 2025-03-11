@@ -2,7 +2,8 @@ import os
 
 from dotenv import load_dotenv
 from griptape.chunkers import PdfChunker
-from griptape.drivers import OpenAiEmbeddingDriver, PgVectorVectorStoreDriver
+from griptape.drivers.embedding.openai import OpenAiEmbeddingDriver
+from griptape.drivers.vector.pgvector import PgVectorVectorStoreDriver
 from griptape.loaders import PdfLoader
 from griptape.structures import Agent
 from griptape.tools import VectorStoreTool
